@@ -1,0 +1,30 @@
+header {
+    width: 380rem;
+    max-width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    font-family: 'Inter', sans-serif;
+    position: fixed;
+}
+
+.margem {
+    width: 380rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.margem a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+}
+
+.mundinho img{
+    height: 5.5rem;
+    width: 5.5rem;
+}
