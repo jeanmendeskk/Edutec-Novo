@@ -5,7 +5,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 5rem;
+    height: 13vh;
     font-family: 'Inter', sans-serif;
     position: fixed;
 }
@@ -25,6 +25,10 @@ header {
 }
 
 .mundinho img{
-    height: 5.5rem;
-    width: 5.5rem;
+    height: 14.3vh;
+    width: 14.3vh;
+}
+
+.azul-marinho {
+    background-color: var(--dark-blue);
 }

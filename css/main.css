@@ -14,3 +14,73 @@ main img {
     width: 150vh;
     margin-top: 5rem;
 }
+
+.azul {
+    background: var(--blue);
+}
+
+.login-cadastro {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.login-cadastro h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 6vh;
+    font-size: 5.5vh;
+}
+
+.login-cadastro div input {
+    border: 1px solid #000;
+    display: flex;
+    padding-block: 4vh;
+    padding-inline: 15vh;
+    border-radius: 5px;
+    font-family: 'Open Sans', sans-serif;
+    margin-block: 3vh;
+    font-size: 2.5vh;
+    text-align: center;
+}
+
+.esq-cad {
+    width: 60vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.esq-cad a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 3vh;
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+}
+
+.input {
+    margin-inline: 2.6vh;
+}
+
+.buttons {
+    width: 62vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.6vh;
+}
+
+.buttons button {
+    width: 25vh;
+    height: 10vh;
+    background-color: var(--light-gray);
+    border-radius: 8px;
+    border: 1px solid #000;
+    font-size: 2.5vh;
+}
+
+.b-p button {
+    background-color: #000;
+    color: #fff;
+}
