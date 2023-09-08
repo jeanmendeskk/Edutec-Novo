@@ -92,3 +92,48 @@ main img {
 #cadastro-titulo {
     margin-bottom: 3vh;
 }
+
+#quemsomo {
+    height: 100vh;
+    display: flex;
+}
+
+.pt1, .pt2 {
+    width: 120vh;
+    height: 100vh;
+}
+
+.pt2 {
+    background-color: var(--gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pt2 div {
+    margin-inline: 5.2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5.2vh;
+    color: var(--light-gray);
+}
+
+.pt2 div h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.pt2 div p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.3rem;
+}
+
+.pt1 {
+    background-image: url(../images/fundo-pf.jpg);
+    background-size: 125vh;
+}
