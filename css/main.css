@@ -1,10 +1,11 @@
 body {
     min-height: 100vh;
     background-image: url(../images/background.svg);
+    background-size: 100%;
 }
 
 main {
-    max-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +13,7 @@ main {
 
 main img {
     width: 150vh;
-    margin-top: 5rem;
+    margin-top: 15vh;
 }
 
 .azul {
@@ -93,7 +94,7 @@ main img {
     margin-bottom: 3vh;
 }
 
-#quemsomo {
+.quemsomo {
     height: 100vh;
     display: flex;
 }
@@ -109,6 +110,7 @@ main img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: justify;
 }
 
 .pt2 div {
@@ -136,4 +138,150 @@ main img {
 .pt1 {
     background-image: url(../images/fundo-pf.jpg);
     background-size: 125vh;
+}
+
+.part1 div img {
+    width: 5vh;
+    height: 5vh;
+    margin-top: 0;
+}
+
+.part1, .part2 {
+    width: 120vh;
+    height: 100vh;
+}
+
+.part1 {
+    background-color: var(--light-gray);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.imgs { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.part1 h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    color: var(--dark-blue);
+    font-size: 6vh;
+    margin-block: 7vh;
+}
+
+.part1 p {
+    font-family: 'Open Sans', sans-serif;
+    color: var(--dark-blue);
+    font-size: 3.3vh;
+}
+
+.part1 div {
+    width: 40vh;
+}
+
+.part2 {
+    background-color: var(--blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2 div:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+}
+
+.part2 input {
+    border: 0;
+    height: 10.8vh;
+    width: 58vh;
+    margin-block: 2vh;
+    border-radius: 0.5vh;
+    padding-left: 10vh;
+    font-size: 2vh;
+}
+
+#large {
+    padding-block: 8vh;
+}
+
+.botoes {
+    margin-top: 2vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes button {
+    padding-block: 3vh;
+    width: 23vh;
+    border-radius: 1vh;
+    border: 0;
+    background-color: #fff;
+    font-size: 2.5vh;
+}
+
+#verdin {
+    background-color: var(--green);
+}
+
+.obrigado {
+    width: 380rem;
+    max-width: 100%;
+    height: 100vh;
+    background-image: url(../images/bgob.svg);
+    background-repeat: no-repeat;
+    background-size: 230vh;
+    background-position: center;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    padding-left: 10vh;
+    text-align: center;
+}
+
+.obrigado section {
+    width: 80vh;
+}
+
+.meio {
+    width: 165vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -10vh;
+    margin-right: 10rem;
+}
+
+.meio p {
+    width: 80vh;
+}
+
+.obrigado div img{
+    width: 50vh;
+}
+
+.obrigado h2 {
+    font-size: 4vh;
+}
+
+.meio p {
+    font-size: 3vh;
+}
+
+.obrigado section button {
+    padding: 4vh;
+    margin-top: -5vh;
+    border: 0;
+    border-radius: 2vh;
+    background-color: var(--blue);
+    color: #fff;
+    font-size: 2.5vh;
 }
