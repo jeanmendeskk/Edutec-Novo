@@ -290,7 +290,6 @@ main img {
     background-color: var(--light-blue);
     display: flex;
     justify-content: left;
-    align-items: center;
 }
 
 #azul-c section:first-child {
@@ -303,14 +302,39 @@ main img {
 
 .seta {
     width: 8vh;
+    margin-bottom: 3vh;
 }
 
 .dquiz{
     background-color: var(--dark-blue);
     color: #fff;
     font-family: 'Open Sans', sans-serif;
+    width: 40vh;
+    height: 60vh;
+    border-radius: 4vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 6vh;
 }
 
+.dquiz h1 {
+    font-size: 10vh;
+    text-transform: uppercase;
+}
+
+.dquiz div {
+    display: flex;
+    flex-direction: column;
+    gap: 10vh;
+    margin-inline: 3vh;
+}
+
+.dquiz p {
+    font-size: 3.5vh;
+}
 
 .qbutton button {
     border: 0;
@@ -318,4 +342,17 @@ main img {
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
+    width: 120vh;
+    height: 9vh;
+    margin-block: 1vh;
+    border-radius: 5vh;
+    font-size: 2.5vh;
+}
+
+.qbutton {
+    width: 190vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
 }
