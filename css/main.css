@@ -40,7 +40,7 @@ main img {
     display: flex;
     padding-block: 4vh;
     padding-inline: 15vh;
-    border-radius: 5px;
+    border-radius: 0.8125vh;
     font-family: 'Open Sans', sans-serif;
     margin-block: 3vh;
     font-size: 2.5vh;
@@ -231,7 +231,7 @@ main img {
 }
 
 .obrigado {
-    width: 380rem;
+    width: 230vh;
     max-width: 100%;
     height: 100vh;
     background-image: url(../images/bgob.svg);
@@ -242,22 +242,30 @@ main img {
     font-family: 'Open Sans', sans-serif;
     display: flex;
     justify-content: left;
+    align-items: center;
     text-align: left;
     padding-left: 10vh;
     text-align: center;
 }
 
 .obrigado section {
-    width: 80vh;
+    width: 79vh;
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
 }
 
+
 .meio {
-    width: 165vh;
+    width: 200%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: -10vh;
-    margin-right: 10rem;
+}
+
+.ajusti {   
+    margin-left: 30;
 }
 
 .meio p {
@@ -342,7 +350,7 @@ main img {
     color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
-    width: 120vh;
+    width: 100vh;
     height: 9vh;
     margin-block: 1vh;
     border-radius: 5vh;
@@ -350,7 +358,7 @@ main img {
 }
 
 .qbutton {
-    width: 190vh;
+    width: 165vh;
     display: flex;
     flex-direction: column;
     align-items: center;
