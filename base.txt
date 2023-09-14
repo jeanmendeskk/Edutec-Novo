@@ -23,6 +23,48 @@
 </body>
 </html>
 
+-- base quiz
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <title>Mundo Aberto</title>
+</head>
+<body class="tamanho">
+
+    <header>
+        <div class="margem">
+            <a href="../index.html" class="mundinho"><img src="../images/logo.svg" alt="logo mundo"></a>
+        </div>
+    </header>
+
+
+    <main class="quiz" id="margem-cima">
+        <div class="seta-quiz">
+            <a href="./quiz.html"><img src="../images/seta.svg" alt="" class="seta"></a>
+        </div>
+
+        <div class="box-quiz">
+            <div>
+                <h2 class="maior"></h2>
+            </div>
+
+            <div class="opçoes">
+                <button class="margem-quiz"></button>
+                <button class="margem-quiz"></button>
+                <button></button>
+                <button></button>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>
+
 -- fontes
 
 font-family: 'League Spartan', sans-serif;
