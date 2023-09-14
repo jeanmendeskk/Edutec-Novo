@@ -383,6 +383,7 @@ main img {
     align-items: center;
     background-color: var(--blue);
     padding: 4vh;
+    padding-top: 5vh;
     border-radius: 3vh;
 }
 
@@ -417,6 +418,6 @@ main img {
 }
 
 .seta-quiz {
-    margin-bottom: 4vh;
+    margin-bottom: 3.5vh;
     margin-left: -92%;
 }
