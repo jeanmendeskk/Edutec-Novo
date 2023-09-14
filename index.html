@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./images/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://rawgit.com/stowball/jQuery-rwdImageMaps/master/jquery.rwdImageMaps.min.js"></script>
     <title>Mundo Aberto</title>
 </head>
 <body>
@@ -20,17 +22,22 @@
     </header>
 
     <main>
+        
+
+        <script>$(document).ready(function(e) {
+            $('main img[usemap]').rwdImageMaps();
+        });</script>
+
         <img src="./images/mapa-mundi.png" alt="mapa mundo" usemap="#mapa">
 
         <map name="mapa">
-            <area shape="circle" coords="200, 50, 200" href="./html/america-norte.html" alt="Pagina da américa do norte">
-            <area shape="circle" coords="220, 150, 150" href="./html/america-central.html" alt="Página da américa central">
-            <area shape="circle" coords="250, 400, 150" href="./html/america-sul.html" alt="Página da américa do sul">
-            <area shape="circle" coords="450, 50, 180" href="./html/europa.html" alt="">    
-            <area shape="circle" coords="480, 350, 130" href="./html/africa.html" alt="">
-            <area shape="circle" coords="900, 450, 250" href="./html/oceania.html" alt="">
-            <area shape="circle" coords="850, 200, 300" href="./html/asia.html" alt="">
-            
+            <area shape="circle" coords="700, 150, 1000" href="./html/america-norte.html" alt="Pagina da américa do norte">
+            <area shape="circle" coords="950, 1200, 280" href="./html/america-central.html" alt="Página da américa central">
+            <area shape="circle" coords="1400, 1800, 550" href="./html/america-sul.html" alt="Página da américa do sul">
+            <area shape="circle" coords="2000, 180, 900" href="./html/europa.html" alt="">    
+            <area shape="circle" coords="2100, 1400, 550" href="./html/africa.html" alt="">
+            <area shape="circle" coords="3200, 2200, 900" href="./html/oceania.html" alt="">
+            <area shape="circle" coords="3200, 1000, 1000" href="./html/asia.html" alt="">
         </map>
     </main>
 
