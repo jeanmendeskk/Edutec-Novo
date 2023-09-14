@@ -511,33 +511,38 @@ main img {
 }
 
 .s-metade {
-
-    border-left:  0.2vh solid #000;
+    display: flex;
+    width: 100%;
+    border-left: 0.2vh solid #000;
 }
 
 .s-metade div {
     background-color: var(--light-gray);
     width: 60vh;
-    padding: 5vh;
-    padding-top: 1vh;
-    border-radius: 3vh;
+    padding: 4vh;
+    font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
+    text-align: justify;
+    margin-left: 18vh;
+    margin-top: 175vh;
+    border-radius: 3vh;
+    text-align: justify;
+    display: flex;
     align-items: center;
-    text-align: justify;    
-    height: 100%;
-    margin-block: 8vh;
+    margin-bottom: 5vh;
+    font-size: 2.5vh;
 }
 
 .s-metade h1 {
-    font-family: 'Inter', sans-serif;
-    margin-block: 4vh;
+    margin-block: 2vh;
+    font-size: 4vh;
 }
 
-.s-metade {
-    font-family: 'Inter', sans-serif;
+.a {
+    min-height: 110%;
 }
 
 .curiosidade {
-    padding-inline: 1.8vh;
+    padding-inline: 2vh;
 }
