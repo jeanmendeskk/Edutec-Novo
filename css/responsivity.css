@@ -1,0 +1,11 @@
+@media (min-width: 1440px) {
+        .meio {
+            width: 175%;
+        }
+}
+
+@media (min-width: 1700px) {
+    .meio {
+        width: 200%;
+    }
+}

@@ -65,6 +65,63 @@
 </body>
 </html>
 
+-- base do conteúdo
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="../style.css">
+    <title>Mundo Aberto</title>
+</head>
+<body>
+
+    <header>
+        <div class="margem" class="marg-special">
+            <a href="../index.html" class="mundinho"><img src="../images/logo.svg" alt="logo mundo"></a>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="p-metade">
+            <h1></h1>
+            <img src="" alt="">
+        </section>
+            
+        <section class="s-metade">
+            <div>
+                <h1>Países</h1>
+                <p></p>
+
+                <h1>Economia</h1>
+                <p></p>
+
+                <h1>Cultura</h1>
+                <p></p>
+
+                <h1>Política</h1>
+                <p></p>
+
+                <h1>Geografia</h1>
+                <p></p>
+
+                <h1>Curiosidades</h1>
+                <ul class="curi-lista">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
+
 -- fontes
 
 font-family: 'League Spartan', sans-serif;

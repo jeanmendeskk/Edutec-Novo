@@ -472,3 +472,72 @@ main img {
 .verdin {
     background-color: var(--green);
 }
+
+.marg-special {
+    width: 50%;
+}
+
+.conteudo {
+    width: 100%;
+    display: flex;
+}
+
+.conteudo section {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+}
+
+.p-metade {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 4vh;
+}
+
+.p-metade h1 {
+    margin-top: 16vh;
+    position: fixed;
+}
+
+.p-metade img {
+    width: 50vh;
+    margin-top: 25vh;
+    position: fixed;
+}
+
+.s-metade {
+
+    border-left:  0.2vh solid #000;
+}
+
+.s-metade div {
+    background-color: var(--light-gray);
+    width: 60vh;
+    padding: 5vh;
+    padding-top: 1vh;
+    border-radius: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;    
+    height: 100%;
+    margin-block: 8vh;
+}
+
+.s-metade h1 {
+    font-family: 'Inter', sans-serif;
+    margin-block: 4vh;
+}
+
+.s-metade {
+    font-family: 'Inter', sans-serif;
+}
+
+.curiosidade {
+    padding-inline: 1.8vh;
+}
