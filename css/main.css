@@ -517,13 +517,15 @@ main img {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-bottom: 20vh;
+    overflow-x: hidden;
 }
 
 .s-metade div {
     background-color: var(--light-gray);
     width: 60vh;
     padding: 4vh;
+    padding-top: 2vh;
+    padding-bottom: 5vh;
     font-family: 'Inter', sans-serif;
     display: flex;
     flex-direction: column;
@@ -558,3 +560,28 @@ main img {
     border-right: 0.2vh solid #000;
     position: fixed;
 }    
+
+#am {
+    width: 45%;
+}
+
+.conteudo section:nth-of-type(2) div {
+    margin-bottom: 8vh;
+}
+
+#ac {
+    width: 65%;
+    margin-top: 12vh;
+}
+
+#euro {
+    width: 42%;
+}
+
+#oc {
+    width: 45%;
+}
+
+#as {
+    width: 45%;
+}
