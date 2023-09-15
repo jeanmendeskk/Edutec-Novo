@@ -513,7 +513,11 @@ main img {
 .s-metade {
     display: flex;
     width: 100%;
-    border-left: 0.2vh solid #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
 }
 
 .s-metade div {
@@ -524,18 +528,16 @@ main img {
     display: flex;
     flex-direction: column;
     text-align: justify;
-    margin-left: 18vh;
-    margin-top: 175vh;
     border-radius: 3vh;
     text-align: justify;
     display: flex;
     align-items: center;
-    margin-bottom: 5vh;
     font-size: 2.5vh;
+    margin-block: 8vh;
 }
 
 .s-metade h1 {
-    margin-block: 2vh;
+    margin-block:3vh;
     font-size: 4vh;
 }
 
@@ -546,3 +548,13 @@ main img {
 .curiosidade {
     padding-inline: 2vh;
 }
+
+.borda {
+    display: flex;
+    flex-direction: column;
+    height: 10000vh;
+    max-height: 100%;
+    width: 0%;
+    border-right: 0.2vh solid #000;
+    position: fixed;
+}    
