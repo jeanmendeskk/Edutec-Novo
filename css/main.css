@@ -585,3 +585,21 @@ main img {
 #as {
     width: 45%;
 }
+
+.cursor {
+    cursor: pointer;
+}
+
+.proximo {
+    margin-left: 80%;
+}
+
+.proximo button {
+    width: 18vh;
+    height: 8vh;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+    border-radius: 2vh;
+    font-size: 2.5vh;
+}
