@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="../style.css">
+    <script src="../script.js" defer></script>
     <title>Mundo Aberto</title>
 </head>
 
@@ -29,10 +30,10 @@
             </div>
 
             <div class="opçoes">
-                <a href="./parabens.html"><button class="margem-quiz" class="certa">Equador</button></a>
-                <button class="margem-quiz" class="erro1">Brasil</button>
-                <button class="erro2">Venezuela</button>
-                <button class="errro3">Peru</button>
+                <section class="erro1"><button class="margem-quiz" onclick="quizErro1()">Equador</button></section>
+                <section class="certa"><button class="margem-quiz" onclick="quizAcerto1()">Brasil</button></section>
+                <section class="erro2"><button onclick="quizErro2()">Venezuela</button></section>
+                <section class="erro3"><button onclick="quizErro3()">Peru</button></section>
             </div>
 
         </div>
