@@ -257,7 +257,7 @@ main img {
 
 
 .meio {
-    width: 200%;
+    width: 210%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -610,4 +610,53 @@ main img {
 
 .botao-vermelho {
     background-color: var(--red);
+}
+
+.popup {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin: 35vh auto;
+    padding: 3vh 4vh;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 2vh;
+    position: relative;
+}
+
+.popup h2 {
+    font-size: 4vh;
+}
+
+.popup p {
+    font-size: 3vh;
+    padding-inline: 2vh;
+}
+
+.popup h2, .popup p {
+    margin-block: 5vh;
+}
+
+.popup-wrapper {
+    display: none;
+    background: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-close {
+    position: absolute;
+    top: 2vh;
+    left: 3vh;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+.butao {
+    cursor: pointer;
 }

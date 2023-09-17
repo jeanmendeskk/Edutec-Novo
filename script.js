@@ -21,7 +21,7 @@ function quizErro3() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
+
 
 function quizAcerto2() {
     document.querySelector('.certa2').innerHTML = '<button class="margem-quiz botao-verde">Saara</button>'
@@ -46,7 +46,7 @@ function quizErro6() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
+
 
 function quizAcerto3() {
     document.querySelector('.certa3').innerHTML = '<button class="margem-quiz botao-verde">4 países</button>'
@@ -71,7 +71,6 @@ function quizErro9() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
 
 function quizAcerto4() {
     document.querySelector('.certa4').innerHTML = '<button class="botao-verde">Guatemala</button>'
@@ -96,7 +95,7 @@ function quizErro12() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
+
 
 function quizAcerto5() {
     document.querySelector('.certa5').innerHTML = '<button class="margem-quiz botao-verde">Rússia</button>'
@@ -121,7 +120,7 @@ function quizErro15() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
+
 
 function quizAcerto6() {
     document.querySelector('.certa6').innerHTML = '<button class="margem-quiz botao-verde">França</button>'
@@ -146,7 +145,7 @@ function quizErro18() {
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
 
-_______________________________________________________________________________________________________________
+
 
 function quizAcerto7() {
     document.querySelector('.certa7').innerHTML = '<button class="botao-verde">6 mil</button>'
@@ -170,3 +169,22 @@ function quizErro21() {
     document.querySelector('.certa7').innerHTML = '<button class="botao-verde">6 mil</button>'
     document.querySelector('.proximo').innerHTML = '<a href="./parabens.html"><button>Próximo</button></a>'
 }
+
+
+
+const buton = document.querySelector('.butao')
+const buton2 = document.querySelector('.butao2')
+const popup = document.querySelector('.popup-wrapper')
+const closeButton = document.querySelector('.popup-close')
+
+buton.addEventListener('click', () => {
+    popup.style.display = 'block'
+})
+
+closeButton.addEventListener('click', () => {
+    popup.style.display = 'none'
+})
+
+buton2.addEventListener('click', () => {
+    popup.style.display = 'block'
+})
