@@ -649,7 +649,7 @@ main img {
     height: 100%;
 }
 
-.popup-close {
+.popup-close, .popup-close4, .popup-close5 {
     position: absolute;
     top: 2vh;
     left: 3vh;
@@ -659,4 +659,98 @@ main img {
 
 .butao {
     cursor: pointer;
+}
+
+.init {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    border: 0;
+    color: #fff;
+    background-color: #000;
+    padding: 1.5vh;
+    font-size: 2.2vh;
+    border-radius: 3vh;
+}
+
+.popup2 {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: block;
+    width: 100%;
+    margin: 35vh auto;
+    padding: 3vh 4vh;
+    max-width: max-content;
+    text-align: center;
+    border-radius: 2vh;
+    position: relative;
+}
+
+.popup2 h2 {
+    font-size: 4vh;
+}
+
+.popup2 p {
+    font-size: 3vh;
+    padding-inline: 2vh;
+    width: 80vh;
+}
+
+.popup2 h2, .popup2 p {
+    margin-block: 5vh;
+}
+
+.popup-wrapper2, .popup-wrapper3, .popup-wrapper4, .popup-wrapper5, .popup-wrapper6 {
+    display: none;
+    background: rgb(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.popup-close2, .popup-close3, .popup-close6 {
+    position: absolute;
+    top: 2vh;
+    left: 3vh;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+.proxm {
+    border: 0;
+    padding: 1.5vh 2.5vh;
+    font-size: 2.1vh;
+    margin-bottom: 2vh;
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 2.5vh;
+}
+
+.proxm2, .ante, .proxm3, .ante2, .proxm4, .ante3, .fim, .ante4 {
+    border: 0;
+    padding: 1.5vh 2.5vh;
+    font-size: 2.1vh;
+    margin-bottom: 2vh;
+    background-color: var(--blue);
+    color: #fff;
+    border-radius: 2.5vh;
+}
+
+.proxm2, .proxm3, .proxm4, .fim {
+    margin-left: 28.5%;
+}
+
+.ante, .ante2, .ante3, .ante4 {
+    margin-right: 28.5%;
+}
+
+.m-sc {
+    width: 8vh;
+    height: 6vh;
+    margin-bottom: -1.5vh;
 }

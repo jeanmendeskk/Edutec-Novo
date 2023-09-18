@@ -174,6 +174,7 @@ function quizErro21() {
 
 const buton = document.querySelector('.butao')
 const buton2 = document.querySelector('.butao2')
+
 const popup = document.querySelector('.popup-wrapper')
 const closeButton = document.querySelector('.popup-close')
 
@@ -188,3 +189,5 @@ closeButton.addEventListener('click', () => {
 buton2.addEventListener('click', () => {
     popup.style.display = 'block'
 })
+
+
